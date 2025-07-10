@@ -39,10 +39,19 @@ nav{
     margin-bottom: 40px;
 }
 
-/* mani styles */
+/* main styles */
+
+main{
+    /* width: 1140px;
+    margin: 0px auto;  */
+    background-color: aliceblue;
+    padding:0px 100px;
+}
+
+/* action style */
 
 .action{
-    padding:200px 180px;
+    padding:150px 130px; 
     display: flex;
     gap: 100px;
     align-items: center;
@@ -60,9 +69,35 @@ nav{
 }
 
 .action_heading{
-    font-size: 42px;
+    font-size: 35px;
     font-weight: bold;
 }
+
+/* users style */
+
+.users{
+    background-color: #4d47ff42;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+
+.users_heading{
+    text-align: center;
+    font-size: 35px;
+}
+
+.figure_heading{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+
+.users_box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 
 /* shared style */
