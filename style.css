@@ -51,7 +51,7 @@ main{
 /* action style */
 
 .action{
-    padding:150px 130px; 
+    padding:150px 60px; 
     display: flex;
     gap: 100px;
     align-items: center;
@@ -99,7 +99,51 @@ main{
 }
 
 
+/* get_in style */
 
+.get_in{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 71px;
+}
+
+.get_heading{
+    font-weight: bold;
+    font-size: 97px;
+}
+
+
+/* footer style  */
+
+footer{
+    text-align: center;
+}
+
+.for_cheaping{
+    padding: 0px 350px 100px;
+}
+
+.footer_heading{
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+}
 /* shared style */
 
 button{
@@ -115,6 +159,17 @@ button{
     margin-top: 40px;
 }
 
+label{
+    font-weight: bold;
+}
+
+input ,textarea{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid rgba(112, 112, 112, 0.605);
+    border-radius: 10px;
+}
+
 .dark-2{
-    color: #252432;
+    color: #25243288;
 }
