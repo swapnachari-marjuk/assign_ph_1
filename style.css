@@ -98,6 +98,45 @@ main{
     justify-content: space-evenly;
 }
 
+/* reviews */
+
+.reviews{
+    padding: 150px 0px 0px;
+}
+
+.reviews_box{
+    display: flex;
+    gap: 20px;
+}
+
+.reviews_card{
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 230px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.reviews_heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.reviewers{
+    display: flex;
+    gap: 10px;
+}
+
+
+.reviews_text{
+    margin: 20px 0px;
+}
+
+.date{
+    font-family: "Inter", sans-serif;
+}
 
 /* get_in style */
 
@@ -152,6 +191,13 @@ button{
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7874f5;
+    border: 2px solid blueviolet;
+    font-weight: bold;
 }
 
     
